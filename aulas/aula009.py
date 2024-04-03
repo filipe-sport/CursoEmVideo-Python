@@ -22,3 +22,16 @@ print(frase.upper())
 print(frase.lower())
 print(frase.capitalize())
 print(frase.title())
+
+frase1 = "      Aprenda Python      "
+print(frase1)
+print(frase1.strip())
+print(frase1.rstrip())
+print(frase1.lstrip())
+
+# Divisão
+
+print(frase.split())
+
+# Junção
+print("-".join(frase))
