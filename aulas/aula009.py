@@ -32,6 +32,9 @@ print(frase1.lstrip())
 # Divisão
 
 print(frase.split())
+print(frase.split()[0])
+print(frase.split()[0][0])
+
 
 # Junção
 print("-".join(frase))
