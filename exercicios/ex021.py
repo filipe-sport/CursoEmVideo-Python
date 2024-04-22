@@ -4,8 +4,8 @@
    - Quantas letras ao todo (sem contar com os espaços)
    - Quantas letras tem o primeiro nome
 """
-nome = input("Entre com seu nome completo: ")
-print(nome.upper())
-print(nome.lower())
-print(len(nome.replace(" ", "")))
-print(len(nome.split()))
+nome = input("Digite seu nome completo: ").strip()
+print(f"Seu nome em maiúsculas é {nome.upper()}")
+print(f"Seu nome em minúsculas é {nome.lower()}")
+print(f"Seu nome tem ao todo {len(nome)-nome.count(' ')} letras")
+print(f"Seu primeiro nome tem {len(nome.split()[0])} letras")
