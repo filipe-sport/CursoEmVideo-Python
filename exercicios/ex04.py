@@ -1,9 +1,11 @@
 algo = (input('Digite algo pelo teclado: '))
-print(type(algo))
-definirAlgo = algo
+print('O tipo primitivo desse valor é: ',type(algo))
 
-print(definirAlgo.isdecimal())
-print(definirAlgo.islower())
-print(definirAlgo.isnumeric())
-print(definirAlgo.isspace())
-print(definirAlgo.isalpha())
+print('Só tem espaços? ',algo.isspace())
+print('É um número? ',algo.isnumeric())
+print('É alfabético? ',algo.isalpha())
+print('Está em maiúsculas? ',algo.isupper())
+print('Está em minúsculas? ',algo.islower())
+print('Está capitalizado? ',algo.istitle())
+
+
