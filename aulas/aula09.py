@@ -17,7 +17,14 @@ print('Curso' in frase) #cerificar se tem a string dentro de uma cadeia de carac
 print(frase.replace('Python', 'Android')) #substitui na exibição uma palavra pela outra
 print(frase.upper()) #tudo em maiusculo
 print(frase.lower()) #tudo em minusculo
-print(frase.capitalize()) #só a primeira letra em maiuscula
-print(frase.title())
+print(frase.capitalize()) #só a primeira letra da string em maiúscula
+print(frase.title()) #a primeira letra de cada palavra em maiúscula
+
+frase ='    Aprenda Python  '
+print(frase.strip()) #elimina espaços em branco tanto no começo como no final da string
+print(frase.rstrip()) #elimina espaços a direita da string
+print(frase.lstrip()) #elimina espaços a esquerda da string
+print(frase.split())
+
 
 
