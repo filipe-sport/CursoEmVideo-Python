@@ -24,7 +24,10 @@ frase ='    Aprenda Python  '
 print(frase.strip()) #elimina espaços em branco tanto no começo como no final da string
 print(frase.rstrip()) #elimina espaços a direita da string
 print(frase.lstrip()) #elimina espaços a esquerda da string
-print(frase.split())
+print(frase.split()) #divisão da string considerando os espaços
+print(frase.split("y")) #divisão da string considerando os espaços, caso ("y") ele deliyitaria a partir da letra y
+
+
 
 
 
